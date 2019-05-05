@@ -1,0 +1,40 @@
+h1 {
+    color: black;
+    margin-left: 350px;
+}
+
+p {
+   margin-left: 400px;
+}
+
+h3 {
+    margin-left: 400px;
+}
+
+img {
+    margin-left: 40px;
+    padding: 50px;
+} 
+
+     
+body {
+    background-color: pink;
+    margin: 0;
+    padding: 0;
+}
+
+.boxes {
+    border: 10px solid red;
+    padding: 100px;
+    margin: 5px;
+    text-align: center;
+}
+
+.lines {
+    border: 1px solid blue;
+    color: blue;
+    display: inline-block;
+    width: 350px;
+    text-align: center;
+    background: hotpink;
+}

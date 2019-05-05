@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: white;
+    margin-left: 350px;
+}
+
+p {
+    color: white;
+    margin-left: 350px;
+}
+
+.boxes {
+    border: 10px solid purple;
+    padding: 100px;
+    margin: 5px;
+    text-align: center;
+}

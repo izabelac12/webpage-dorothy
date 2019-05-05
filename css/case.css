@@ -1,0 +1,166 @@
+body {
+    background-color: lightpink;
+    margin: 40px;
+    padding: 40px;
+}
+
+.paigedohertyscase{
+    text-decoration: underline;
+    text-align: center;
+    width: 450%;    
+    font-size: 30px;
+    margin-bottom: 150px;
+}
+
+.paigeimga {
+    float: left;
+}
+
+
+.paigedoherty{
+    text-decoration: underline;
+    width: 45%;
+    margin-left: 400px;
+    font-size: 20px;
+
+}
+    
+    .a > p {
+        color: black;
+        font-family: 'Khand', cursive;
+        font-size: 18px;
+        text-align: justify;
+        width: 70%;
+        float: right;
+        padding: 20px;
+    }
+/* :: is a pseudo selector which means it creates an imaginary element and styles it. this does not exist in ur html code */
+    .a::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    .realization {
+        
+        text-decoration: underline;
+        font-size: 20px;
+        clear: both;        
+        margin: 60px;
+    }
+    .b > p {
+        border: 1px;
+        color: black;
+        font-size: 18px;   
+        font-family: 'Khand', cursive;   
+        text-align: justify;
+        width: 70%;
+        float: left;
+        padding: 20px;
+    }
+    .b::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    .paigeimgb{
+        float: right;
+        border-radius: 20px;
+    }
+    .investigation {
+        text-decoration: underline;
+        margin-left: 620px;
+        font-size: 20px; 
+        
+    }
+    
+    .c > p {
+        border: 1px;
+        color: black;
+        font-family: 'Khand', cursive;
+        font-size: 18px;
+        width: 70%;
+        text-align: justify;
+        float: right;
+        padding: 20px;
+}
+    .c::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+.policebadgeimgc {
+    float: left;
+    } 
+     
+    .d{
+        border: 1px ;
+        text-align: justify;
+        font-family: 'Khand', cursive;
+        font-size: 18px;
+        border: 1px ;
+        width: 70%;
+        float: left;
+        padding: 20px;
+    }
+    .paigeimgd{
+        float: right;
+    }
+
+    .d::after {
+        content: "";
+        clear: both;
+        display: table;
+
+    }   
+  
+    
+    .e{
+        width: 70%;
+        float: right;
+        border: 1px ;
+        text-align: justify;
+        font-family: 'Khand', cursive;
+        font-size: 18px;
+        padding: 20px;
+    }
+    .paigeimge {
+        float: left;
+    }
+    
+    .e::after {
+        content: "";
+        clear: both;
+        display: table;
+
+    }
+
+    
+    .suspection{
+        text-decoration: underline;
+        text-align: center;
+        }
+    
+    .f{ width: 70%;
+        float: left;
+        border: 1px ;
+        text-align: justify;
+        font-family: 'Khand', cursive;
+        font-size: 18px;
+        padding: 20px;
+    }
+    .paigeimgf{
+        float: right;
+    }
+    
+    .f::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    .othercases{
+        overflow: auto;
+        width: 20%;
+        float: left;
+
+
+    }
