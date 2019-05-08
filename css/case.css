@@ -1,15 +1,16 @@
 body {
     background-color: lightpink;
-    margin: 40px;
-    padding: 40px;
+    
 }
 
 .paigedohertyscase{
     text-decoration: underline;
     text-align: center;
-    width: 450%;    
-    font-size: 30px;
+    width: 50%;    
+    font-size: 60px;
     margin-bottom: 150px;
+    margin-left: 400px;       
+    
 }
 
 .paigeimga {
@@ -24,15 +25,28 @@ body {
     font-size: 20px;
 
 }
+
+.a {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
     
-    .a > p {
+    .paige-detail {
         color: black;
+        border: 1px solid orangered;
         font-family: 'Khand', cursive;
         font-size: 18px;
         text-align: justify;
         width: 70%;
         float: right;
         padding: 20px;
+    }
+
+    .paigeimga {
+        border: 1px solid blue;
     }
 /* :: is a pseudo selector which means it creates an imaginary element and styles it. this does not exist in ur html code */
     .a::after {
